@@ -1,3 +1,21 @@
 body {
 	font-size: 14px;
+	color: red;
 }
+
+@keyframes light {
+  0% { background-color: red; }
+  50% { background-color: yellow; }
+  100% { background-color: green; }	
+}
+
+.light {
+	width: 500px;
+	height: 500px;
+	background-color:red;
+	border-radius:50%;
+	animation-name:light;
+	animation-duration:10s;
+	animation-iteration-count: infinite;
+}
+
